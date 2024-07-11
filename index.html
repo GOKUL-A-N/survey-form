@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/71dac4e3f9.js" crossorigin="anonymous"></script>
+</head>
+<body class="md:h-screen w-full flex items-center justify-center p-4">
+    <div class="w-[300px] h-full bg-transparent">
+        <div class="p-1 w-full">
+            <h1 class="text-center text-orange-400 tracking-widest font-bold text-[22px]"><i class="fa-solid fa-flask"></i> ACQUIOS</h1>
+        </div>
+        <div class="w-full flex mt-5">
+            <div class="w-1/2 p-0 overflow-hidden">
+                <label for="" class="font-semibold">First Name<sup>*</sup></label>
+                <input type="text" class="bg-gray-300 rounded-md w-[140px] h-[35px]">
+            </div>
+            <div class="w-1/2 ml-3 p-0">
+                <label for="" class="font-semibold">Last Name<sup>*</sup></label>
+                <input type="text" class="bg-gray-300 rounded-md w-[150px] h-[35px]">
+            </div>
+        </div>
+        <div class="w-full flex flex-col gap-2 mt-3">
+            <label for="" class="font-semibold">Email address<sup>*</sup></label>
+                <input type="email" class="bg-gray-300 rounded-md h-[35px]">
+        </div>
+        <div class="w-full flex flex-col gap-2 mt-3">
+            <label for="" class="font-semibold">How was your overall experience?<sup>*</sup></label>
+                <div class="flex gap-4">
+                    <input type="checkbox" class="star bg-orange-400">
+                    <input type="checkbox" class="star bg-orange-400">
+                    <input type="checkbox" class="star bg-orange-400">
+                    <input type="checkbox" class="star bg-orange-400">
+                    <input type="checkbox" class="star bg-orange-400" checked>
+                </div>
+        </div>
+        <div class="w-full flex flex-col gap-2 mt-7">
+            <label for="" class="font-semibold">How was your overall experience?<sup>*</sup></label>
+                <div class="flex gap-4">
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Professional and courteous?
+                    </label>
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Patient?
+                    </label>
+                </div>
+                <div class="flex gap-4">
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Knowledgeable?
+                    </label>
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Warm and respectful?
+                    </label>
+                </div>
+                <div class="flex gap-4">
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Friendly?
+                    </label>
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Clear and Direct?
+                    </label>
+                </div>
+                <div class="flex gap-4">
+                    <label for="" class="w-1/2">
+                        <input type="checkbox" class="">Efficient?
+                    </label>
+                </div>
+        </div>
+        <button class="w-full text-center bg-orange-400 p-4 mt-4"> Submit Feedback</button>
+    </div>
+</body>
+</html>
